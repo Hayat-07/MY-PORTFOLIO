@@ -1,6 +1,10 @@
-div #background{ background-image: url(../MY-PORTFOLIO/images/full-min.png);
-    width: 500px;height: 500px;background-position: center;background-size: cover;
-    background-repeat: no-repeat;
-
+p {
+    background-color: aqua;
 }
-p{background-color: aqua;}
+
+.background {
+    color: blue;
+    height: 500px;
+    width: 100px;
+    background-color: cyan;
+}
