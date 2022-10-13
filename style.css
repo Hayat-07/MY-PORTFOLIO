@@ -1,5 +1,6 @@
-#background{ background-image: url(../Image/MY\ Image.png);
-    width: 500px;height: 500px;
+div #background{ background-image: url(../MY-PORTFOLIO/images/full-min.png);
+    width: 500px;height: 500px;background-position: center;background-size: cover;
+    background-repeat: no-repeat;
 
 }
 p{background-color: aqua;}
