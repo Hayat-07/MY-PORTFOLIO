@@ -1,52 +1,107 @@
 body {
+    width: 100%;
 
     color: rgb(112, 112, 112);
     display: block;
     padding: 0px 0px;
     margin: 0px;
 
-}
 
-
-nav {
-    text-align: center;
-    background-color: rgb(3, 73, 78);
     width: 100%;
-    height: 60px;
-    color: rgb(226, 226, 226);
-}
 
-
-
-
-
-
-
-
-
-
-
-
-.container {
-    width: 100%;
-    height: 550px;
     margin-top: 0px;
 
     background-image: url(images/top-min.png);
 
     box-sizing: border-box;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: top;
+    background-size: auto 400px;
 
 }
 
-.container h1 {
+
+
+nav {
+    margin-top: 100px;
+    text-align: center;
+
+    display: block;
+    position: sticky;
+    top: 10px;
+    text-align: center;
+    background-color: rgba(231, 231, 231, 0.575);
+
+    border-radius: 0 0 30% 0;
+    border-image: linear-gradient(blue, rgb(0, 255, 128), red);
+    border-image-slice: 1;
+    border-left: 4px solid;
+    width: 50%;
+    height: 50px;
+    color: rgb(90, 90, 90);
+}
+
+nav ul {
+
+    text-align: center;
+    width: 100%;
+    display: flex;
+    list-style: none;
+
+
+}
+
+nav ul .menu {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 5%;
+}
+
+nav ul .menu .drop {
+    display: none;
+}
+
+nav ul .menu:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(0, 30, 85);
+    border-top: 1px solid rgb(0, 30, 85);
+    color: rgb(0, 59, 136);
+}
+
+nav ul .menu:active {
+    cursor: pointer;
+    color: rgb(7, 163, 253);
+}
+
+nav ul li .hover1 .drop:hover {
+    display: block;
+    position: absolute;
+    margin: 10px;
+    width: 60px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container {}
+
+#full h1 {
     margin-left: 15%;
-    font-size: 30px;
+    margin-top: 0;
+    font-size: 40px;
 }
 
-.container2 {
+.article {
+    margin-top: 300px;
     text-align: center;
 
     width: 100%;
@@ -89,13 +144,10 @@ nav {
 
 
 footer {
-    background-image: url(images/footer-min.png);
-
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-image: linear-gradient(white, rgb(180, 180, 180));
     width: 100%;
-    height: 250px;
+    height: 200px;
+    border-radius: 30% 30% 0 0;
 
 
 }
